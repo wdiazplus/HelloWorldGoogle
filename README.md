@@ -20,6 +20,11 @@ For run this example, you need:
 Notes: 
 - If you use a local browser different from Mozilla, you can make some modifications to hello_world.py script using [this documentation](https://pypi.org/project/webdriver-manager/) 
 
+- In the methods that include logic, you should using test first and add the name that you want. Example:
+
+        test_other_method ---> Correct form
+        other_method ---> Incorrect form
+
 - Remember that We used Python for this example and this is at least in version 3.6
 
 - The class @classmethod permit that each method or test it could be execute in tyhe same firefox's window. If you want run each method for separete should be replace cls for self, delete @classmethod and change methods setUpClass and tearDownClass for setUp and tearDown respectively. 
