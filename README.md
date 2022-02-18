@@ -18,13 +18,13 @@ For run this example, you need:
 
 
 Notes: 
-- If you used a local browser different to Mozilla, you can make some modifications in hello_world script using [this documentation](https://pypi.org/project/webdriver-manager/) 
+- If you use a local browser different from Mozilla, you can make some modifications to hello_world.py script using [this documentation](https://pypi.org/project/webdriver-manager/) 
 
-- Remember that We used Python for this example and this is at least in a version 3.6
+- Remember that We used Python for this example and this is at least in version 3.6
 
 - The class @classmethod permit that each method or test it could be execute in tyhe same firefox's window. If you want run each method for separete should be replace cls for self, delete @classmethod and change methods setUpClass and tearDownClass for setUp and tearDown respectively. 
 
-You report should be look as:
+Your report should look as:
 
 ![Image Test](./img/test_report.png)
 
