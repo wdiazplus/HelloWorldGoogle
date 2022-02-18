@@ -23,3 +23,11 @@ Notes:
 - Remember that We used Python for this example and this is at least in a version 3.6
 
 - The class @classmethod permit that each method or test it could be execute in tyhe same firefox's window. If you want run each method for separete should be replace cls for self, delete @classmethod and change methods setUpClass and tearDownClass for setUp and tearDown respectively. 
+
+You report should be look as:
+
+![Image Test](./img/test_report.png)
+
+and you screenshot as:
+
+![Image Test](./img/screenshot.png)
