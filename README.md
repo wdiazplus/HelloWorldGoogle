@@ -8,7 +8,7 @@ The flow is:
 - Take screenshot of the open session and saved this in img folder.
 - Close the session and generate report in Folder reports.
 
-For run this example, you need:
+To run this example, you need:
 
 - Clone this repository. 
 - In your local space, create a virtual envioronment.
@@ -27,7 +27,7 @@ Notes:
 
 - Remember that We used Python for this example and this is at least in version 3.6
 
-- The class @classmethod permit that each method or test it could be execute in tyhe same firefox's window. If you want run each method for separete should be replace cls for self, delete @classmethod and change methods setUpClass and tearDownClass for setUp and tearDown respectively. 
+- The class @classmethod permit that each method or test it could be executed in the same firefox's window. If you want run each method for separately, it should be replaced cls for self, delete @classmethod and change methods setUpClass and tearDownClass for setUp and tearDown respectively. 
 
 Your report should look as:
 
